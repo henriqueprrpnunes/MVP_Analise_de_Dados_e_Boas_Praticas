@@ -48,10 +48,10 @@ Durante a análise, foram realizadas:
 - Detecção de outliers
 - Avaliação de relações entre variáveis
 - Principais insights:
-price e area apresentam distribuição assimétrica à direita
-Variáveis possuem escalas muito diferentes
-Existem valores extremos que podem impactar modelos futuros
-Variáveis categóricas têm potencial explicativo relevante
+-- price e area apresentam distribuição assimétrica à direita
+-- Variáveis possuem escalas muito diferentes
+-- Existem valores extremos que podem impactar modelos futuros
+-- Variáveis categóricas têm potencial explicativo relevante
 
 ## Pré-processamento dos Dados
 
@@ -59,9 +59,9 @@ Foram consideradas as seguintes etapas:
 
 - Tratamento de variáveis categóricas (encoding)
 - Avaliação da necessidade de:
-Transformação logarítmica (price, area)
-Padronização (StandardScaler)
-Normalização (MinMaxScaler)
+-- Transformação logarítmica (price, area)
+-- Padronização (StandardScaler)
+-- Normalização (MinMaxScaler)
 - Preparação dos dados para algoritmos de Machine Learning
 
 ## Próximos Passos
